@@ -2,7 +2,7 @@ services:
   app:
     build: .
     ports:
-      - 8000:8000
+      - 8001:8000
       - 5678:5678
     volumes:
       - .:/code
@@ -57,3 +57,4 @@ networks:
   ollama-docker:
     external: false
   
+

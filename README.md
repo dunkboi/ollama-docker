@@ -1,4 +1,4 @@
-# Ollama Docker Compose Setup
+# Ollama Docker Compose Setup *ADDED PORTAINER COMPATABILITY BY CHANGING TO PORT 8001*
 
 Welcome to the Ollama Docker Compose Setup! This project simplifies the deployment of Ollama using Docker Compose, making it easy to run Ollama with all its dependencies in a containerized environment.
 [![Star History Chart](https://api.star-history.com/svg?repos=valiantlynx/ollama-docker&type=Date)](https://star-history.com/#valiantlynx/ollama-docker&Date)
@@ -96,3 +96,4 @@ This project is licensed under the [RSOSL](https://github.com/mythrantic/ollama-
 If you have any questions or concerns, please contact us at [vantlynxz@gmail.com](mailto:vantlynxz@gmail.com).
 
 Enjoy using Ollama with Docker Compose! 🐳🚀
+

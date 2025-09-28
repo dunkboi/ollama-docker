@@ -20,7 +20,7 @@ services:
       - 7869:11434
     volumes:
       - .:/code
-      - /home/mdunbar/ollama-data:/root/.ollama  # ✅ Fixed volume path
+      - /home/ollama/ollama-data:/root/.ollama  # ✅ Fixed volume path
     container_name: ollama
     pull_policy: always
     tty: true
@@ -35,7 +35,7 @@ services:
     image: ghcr.io/open-webui/open-webui:main
     container_name: ollama-webui
     volumes:
-      - /home/mdunbar/open-webui-data:/app/backend/data  # ✅ host path with real space
+      - /home/ollama/open-webui-data:/app/backend/data  # ✅ host path with real space
     depends_on:
       - ollama
     ports:
@@ -57,6 +57,7 @@ networks:
   ollama-docker:
     external: false
   
+
 
 
 

@@ -35,7 +35,7 @@ services:
     image: ghcr.io/open-webui/open-webui:main
     container_name: ollama-webui
     volumes:
-      /home/mdunbar/open-webui-data:/app/backend/data  # ✅ host path with real space
+      - /home/mdunbar/open-webui-data:/app/backend/data  # ✅ host path with real space
     depends_on:
       - ollama
     ports:
@@ -57,6 +57,7 @@ networks:
   ollama-docker:
     external: false
   
+
 
 
 
